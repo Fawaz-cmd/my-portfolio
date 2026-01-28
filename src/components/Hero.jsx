@@ -25,6 +25,23 @@ const Hero = () => {
                         Exploring data, training models, and turning ideas into intelligent real-world solutions.
                     </p>
 
+                    <div className="hero-code-snippet">
+                        <div className="code-header">
+                            <span className="dot red"></span>
+                            <span className="dot yellow"></span>
+                            <span className="dot green"></span>
+                        </div>
+                        <div className="code-content">
+                            <code>
+                                <span className="keyword">class</span> <span className="class-name">Fawaz</span> <span className="keyword">extends</span> <span className="class-name">Developer</span> {'{'} <br />
+                                &nbsp;&nbsp;<span className="constructor">constructor</span>() {'{'} <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span className="property">this.skills</span> = [<span className="string">'Java'</span>, <span className="string">'React'</span>, <span className="string">'Python'</span>]; <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span className="property">this.passion</span> = <span className="string">'Building Products'</span>; <br />
+                                &nbsp;&nbsp;{'}}'}
+                            </code>
+                        </div>
+                    </div>
+
                     <div className="hero-cta">
                         <a href="#projects" className="btn btn-large">View My Work</a>
                         <div className="social-links">
