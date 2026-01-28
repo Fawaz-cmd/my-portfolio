@@ -26,7 +26,7 @@ const Navbar = () => {
                     <a href="#experience" onClick={() => setIsOpen(false)}>Experience</a>
                     <a href="#projects" onClick={() => setIsOpen(false)}>Work</a>
                     <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
-                    <a href="/resume.pdf" className="nav-cta btn" onClick={() => setIsOpen(false)}>Resume</a>
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-cta btn" onClick={() => setIsOpen(false)}>Resume</a>
                 </div>
 
                 <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>

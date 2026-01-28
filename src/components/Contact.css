@@ -29,6 +29,40 @@
     margin-bottom: 40px;
 }
 
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: var(--font-mono);
+    font-size: 18px;
+    color: var(--text-primary);
+    transition: var(--transition);
+}
+
+.contact-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-item:hover {
+    color: var(--text-accent);
+    transform: translateX(5px);
+}
+
+.contact-icon {
+    font-size: 20px;
+    color: var(--text-accent);
+    filter: drop-shadow(0 0 5px var(--text-accent-glow));
+}
+
 .footer {
     margin-top: 100px;
     font-family: var(--font-mono);
