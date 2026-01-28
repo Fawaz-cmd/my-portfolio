@@ -1,0 +1,47 @@
+.contact-section {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.contact-content {
+    background: var(--bg-card);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 60px 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-content:hover {
+    border-color: var(--text-accent);
+    box-shadow: 0 0 30px var(--text-accent-glow);
+}
+
+.big-heading {
+    font-size: clamp(40px, 5vw, 60px);
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    color: var(--text-secondary);
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    margin-top: 100px;
+    font-family: var(--font-mono);
+    font-size: 14px;
+    color: var(--text-secondary);
+    opacity: 0.6;
+}
+
+.section-header.center {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-header.center .line {
+    display: none;
+}

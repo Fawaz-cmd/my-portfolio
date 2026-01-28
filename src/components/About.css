@@ -1,0 +1,112 @@
+.about-section {
+    padding-top: 50px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.column-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: var(--text-primary);
+}
+
+.column-title .icon {
+    color: var(--text-accent);
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline-item {
+    background: var(--bg-card);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 24px;
+    transition: var(--transition);
+}
+
+.timeline-item:hover {
+    border-color: var(--text-accent);
+    transform: translateX(10px);
+    box-shadow: 0 0 20px var(--text-accent-glow);
+}
+
+.timeline-item .year {
+    font-family: var(--font-mono);
+    color: var(--text-accent);
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.timeline-item h4 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.timeline-item .degree {
+    color: var(--text-secondary);
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.timeline-item .grade {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--text-accent);
+    background: rgba(100, 255, 218, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.skill-category {
+    margin-bottom: 30px;
+}
+
+.skill-category h4 {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    color: var(--text-accent);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    background: rgba(10, 25, 47, 0.5);
+    border: 1px solid var(--glass-border);
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    transition: var(--transition);
+}
+
+.skill-tag:hover {
+    color: var(--text-accent);
+    border-color: var(--text-accent);
+    background: rgba(100, 255, 218, 0.05);
+}
+
+@media (max-width: 992px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
